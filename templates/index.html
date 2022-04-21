@@ -682,7 +682,7 @@ p {
 
     function get_dest(location){
 	console.log($('.search_input text_area').val());
-  $.getJSON('https://maps.googleapis.com/maps/api/place/textsearch/json?',{
+  $.getJSON('https://cors-anywhere.herokuapp.com/https://maps.googleapis.com/maps/api/place/textsearch/json?',{
     query:`${location}`,
     key:'AIzaSyASP9vWd3OTWFUDn6FoliMof9g8k3PVYds'
 		},
