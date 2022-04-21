@@ -29,7 +29,7 @@ ALLOWED_HOSTS = ['5654b09645f944bbb7228592a2fb651d.vfs.cloud9.eu-west-1.amazonaw
 # ALLOWED_HOSTS = ["http://127.0.0.1","*"]
 CORS_ORIGIN_ALLOW_ALL = True
 CORS_ALLOWED_ORIGINS = [
-     "5654b09645f944bbb7228592a2fb651d.vfs.cloud9.eu-west-1.amazonaws.com",
+     "http://127.0.0.1:8000",
 
  ]
 
