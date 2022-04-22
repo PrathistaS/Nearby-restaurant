@@ -25,7 +25,7 @@ SECRET_KEY = 'u=#gre%c92(v5j&$&cvwd6=0g@t3xjkjz3zeye1y5=ifxjrqi-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 #ALLOWED_HOSTS = ["https://34.243.14.162"]
-ALLOWED_HOSTS = ['5654b09645f944bbb7228592a2fb651d.vfs.cloud9.eu-west-1.amazonaws.com']
+ALLOWED_HOSTS = ['restaurant123-env.eba-9usutdza.eu-west-2.elasticbeanstalk.com']
 # ALLOWED_HOSTS = ["http://127.0.0.1","*"]
 CORS_ORIGIN_ALLOW_ALL = True
 CORS_ALLOWED_ORIGINS = [
