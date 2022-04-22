@@ -702,7 +702,8 @@ function renderDestData(data){
   {#let imgSmall = data.imgSmall ? data.imgSmall : './images/no_image.png';#}
   return`
     <div class="result_col_4">
-     <a href="https://www.google.com/maps/search/?api=1&query='${data.geometry.location.lat}'%2C-'${data.geometry.location.lat}'&query_place_id='${data.place_id}'" target="_blank">
+     //<a href="https://www.google.com/maps/search/?api=1&query='${data.geometry.location.lat}'%2C-'${data.geometry.location.lat}'&query_place_id='${data.place_id}'" target="_blank">
+     <a href="https://www.google.com/maps/place/?q=place_id:${data.place_id}" target="_blank">
      <img src = "${data.icon}" alt="photo"></a>
      {#<p>${data.photos[0].html_attributions}</p>#}
      <p>${data.business_status}</p>
